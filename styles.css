@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Trirong', serif;
+    font-family: 'Lobster Two', cursive;
+    src: https: //fonts.googleapis.com/css?family=Trirong;
+    src: https: //fonts.googleapis.com/css?family=Ropa+Sans;
+    src: https: //fonts.googleapis.com/css?family=Lobster+Two;
+}
+
+
+/* Fonts*/
+
+#mainHeader {
+    font-family: Lobster Two, Helvetica, serif;
+    font-size: 3.5em;
+}
+
+div {
+    font-family: Trirong, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+#calculate {
+    font-family: Trirong, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+#period {
+    font-family: Trirong, Arial, sans-serif;
+    font-size: .9em;
+}
+
+#loanTerm {
+    font-family: Trirong, Arial, sans-serif;
+}
+
+input {
+    font-family: Trirong, Arial, sans-serif;
+    font-size: 1em;
+    color: #614141;
+}
+
+#displayOutput {
+    font-family: Ropa Sans, Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#displayTotal {
+    font-family: Ropa Sans, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+::-webkit-input-placeholder {
+    font-size: .75em;
+}
+
+
+/* Main Styles */
+
+
+/* h1 is colored bar with text inside*/
+
+h1 {
+    margin-top: 0;
+    height: 100px;
+    background: #8becd7;
+    padding-left: 4%;
+}
+
+#mainHeader {
+    padding-left: 4%;
+    padding-top: 20px;
+}
+
+div {
+    padding-left: 2%;
+}
+
+#submitButton {
+    padding-left: 2%;
+    margin-top: 20px;
+}
+
+#dropDown {
+    margin-top: 20px;
+}
+
+#termYears {
+    margin-top: 20px;
+}
+
+#aprPercent {
+    margin-top: 20px;
+}
+
+input {
+    height: 20px;
+    width: auto;
+    text-align: center;
+    background: #D2ED8C;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#period {
+    border-style: none;
+    border-radius: 5px;
+    background: #D2ED8C;
+}
+
+#calculate {
+    border-style: none;
+    border-radius: 5px;
+    background: #D2ED8C;
+}
+
+p {
+    height: 20px;
+    margin-top: 70px;
+    padding-left: 4%;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 400px) {
+    #mainHeader {
+        font-size: 2em;
+    }
+    body {
+        font-size: .7em;
+    }
+}

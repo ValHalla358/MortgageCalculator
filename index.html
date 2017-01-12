@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Ropa+Sans|Trirong:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="mainHeader">Calculate Your Loan Payments</h1>
+    <div id="mortgageAmount" class="form-group has-success has-feedback">
+        <label id="amountInput">Loan Amount in US Dollars</label>
+        <input id="mortgageLoan" type="number"></input>
+    </div>
+    <!--enter loan balance in $$ -->
+    <div id="aprPercent">
+        <label id="apr">APR (%)</label>
+        <input id="chargeAPR" placeholder="Please use numbers ONLY" type="number"></input>
+    </div>
+    <!--enter APR Change  -->
+    <div id="termYears">
+        <label id="term">Loan Term in Year(s)</label>
+        <input id="loanTerm" type="number"></input>
+    </div>
+    <!--enter length of Loan Term in years -->
+    <div id="dropDown">
+        <label id="dropDown">Payments Per Year</label>
+        <select id="period">
+            <!--enter Loan periods-->
+            <option id="monthly" value="12">12 </option>
+            <!--Monthly period -->
+            <option id="bi-monthly" value="6">6 </option>
+            <!--bi-monthly Period -->
+        </select>
+    </div>
+    <div id="submitButton">
+        <label id=buttonLabel>Click to calculate</label>
+        <button id="calculate" onclick="return mortgageCalculate()">Calculate</button>
+    </div>
+    <!--On click will execute function mortgageCalculate -->
+    <p id="displayOutput"></p>
+    <p id="displayTotal"></p>
+    <!--will display calculated function -->
+    <script src="index.js"></script>
+    <!--link to js page -->
+</body>
+
+</html>
