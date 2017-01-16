@@ -1,4 +1,6 @@
-  // monthly interest rate       
+  // monthly interest rate 
+  "use strict";
+
   function mortgageCalculate(value) {
       var loanBalance = document.getElementById("mortgageLoan").value;
       var aprRate = document.getElementById("chargeAPR").value;
@@ -43,23 +45,5 @@
 
 
 
-
-
-
-
-
-
-
-
-  // function myPaymentReset()
-  // {
-  // // Reset everything to default/null/blank
-  // document.getElementById('monthlyPayment').innerHTML = 'Values reset';
-  // document.getElementById('friendlyReminder').style.display = 'none';
-  // document.getElementById('loanError').innerHTML = '';
-  // document.getElementById('yearsError').innerHTML = '';
-  // document.getElementById('rateError').innerHTML = '';
-  // document.mortgagecalc.loan.value = null;
-  // document.mortgagecalc.years.value = null;
-  // document.mortgagecalc.rate.value = null;
-  // }
+  //Giovanni Balarezo = Great work Valerie, maybe you add some features to it; like a error message when people don't enter the correct input type; and also you should comment out all of your console logs
+  // KF = Fantastic work Val. I like how indepth and precise you were in both your files (html/javascript). Very Clean and good template example if someone needs a tutorial
